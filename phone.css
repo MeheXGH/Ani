@@ -1,0 +1,67 @@
+@media only screen and (max-width:600px) {
+    .nav{
+        height: 10%;
+    }
+   
+    .icon{
+        height: 9vw;
+        width: 9vw;
+       
+    }
+    .home{
+        padding-left: 20px;
+        }
+        .booking{
+            padding-right: 20px;
+        }
+    .nav h1{
+        font-size: 8vw;
+    }
+
+    .ani-d{
+        height: 40%;
+        width: 100%;
+
+    }
+    .ani{
+        height: 50vh;
+    }
+    .dis{
+       
+        top: 50vh;
+        /* bottom: 10px; */
+       
+    }
+    .inv{
+       display: none;
+        
+       
+    }
+    .bnav{
+        display: none;
+    }
+    .bttn{
+        background-color: rgb(255, 255, 255);
+        height: 4vh;
+        justify-content: space-between;
+        padding: 0 15px;
+       
+    }
+    .bttn a{
+       margin-left: 30px;
+       font-size:90%;
+       
+    }
+    .zz{
+        left: 5vw;
+        bottom: 10vh;
+    }
+    .lc,.rc{
+        margin-top:40vw ;
+        height: 15vw;
+        
+    }
+    .graf{
+        height: 40vw;
+    }
+}

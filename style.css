@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(255, 255, 255);
+   position: relative;
+   
+}
+.nav{
+    height: 20%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.nav h1{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:65Px;
+    
+}
+
+.icon{
+    
+    height: 50px;
+    width:50px ;
+    margin: 5px;
+}
+
+.home{
+padding-left: 70px;
+}
+.booking{
+    padding-right: 70px;
+}
+.hero{
+    position: absolute;
+    height:60%;
+    width: 100%;
+    /* background-color: aquamarine; */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+
+}
+.graf1{
+    height:40%;
+    width: 100%;
+    /* background-color: rgb(127, 129, 255); */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 22vw;
+    position: relative;
+
+}
+
+.inv{
+    position: absolute;
+    left: 10vh;
+    top: 2vw;
+}
+.lc,.rc{
+   
+
+    height: 7vw;
+    margin-top: 5.5vw;
+    /* width: 10vw; */
+    display: flex;
+    gap: 30px;
+    
+
+}
+
+.graf2{
+    height:60%;
+    width: 100%;
+    /* background-color: rgb(146, 255, 127); */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.graf{
+    position: relative;
+    /* width: 100%; */
+    /* margin-top: 3vw; */
+    height:20vw;
+    filter: invert(1);
+}
+.ani-d{
+    height:60%;
+    width: 100%;
+    position:relative;
+    /* background-color: rgb(144, 0, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+   
+    /* right: 60%; */
+    /* ali */ 
+}
+.ani{
+    margin-left: 85px;
+    margin-top: 100px;
+    height: 100vh; 
+    
+}
+.dis{
+    position: absolute;
+    background-color: greenyellow;
+    text-align: center;
+    bottom: 0.5vw;
+    padding: 24px;
+    height:80px; 
+    width: 250px;
+    border-radius:40px;
+    z-index: 99;
+    filter: drop-shadow(0px 0px 0.5rem greenyellow);
+
+    
+   
+}
+.dis a{
+    color: black;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+    filter: drop-shadow(0.5px 0px black);
+    font-size: larger;
+    
+}
+.bnav{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+.zz{
+    position: absolute;
+    bottom: 4vh;
+    left: 10vh;
+    z-index: 99;
+}
+.bttn{
+    width: 100vw;
+    position: absolute;
+    bottom: 6vh;
+    /* left: 10vh; */
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bttn a{
+    color: black;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+    filter: drop-shadow(0.5px 0px black);
+    font-size: larger;
+    margin-right:3vw ;
+    
+}
+.design{
+    position: absolute;
+    height: 100vh;
+    top: 1vh;
+    /* left: 0vw; */
+}
+
+
